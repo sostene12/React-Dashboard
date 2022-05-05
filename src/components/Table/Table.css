@@ -41,7 +41,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 19rem;
+        width: 6vw;
         overflow: scroll;
     }
 }
