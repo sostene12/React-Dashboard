@@ -36,4 +36,5 @@
  grid-template-columns: 11rem auto 20rem;
   border-radius: 2rem;
   overflow: hidden;
+  gap: 10px;
 }
