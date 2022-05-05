@@ -6,6 +6,12 @@
     font-weight: bold !important;
 }
 
+.Table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .Table td,th{
     border:none !important;
 }
@@ -19,4 +25,23 @@
 }
 .details{
     color: #00b5ff !important;
+}
+
+@media screen and (max-width:1200px){
+    .Table{
+        margin-top: 3rem;
+        width: 130%;
+    }
+   
+}
+
+@media screen and (max-width:768px){
+    .Table{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 19rem;
+        overflow: scroll;
+    }
 }

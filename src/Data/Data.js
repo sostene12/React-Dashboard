@@ -3,7 +3,6 @@ import {
   UilEstate,
   UilClipboardAlt,
   UilPackage,
-  UilChart,
   UilUsersAlt,
   UilUsdSquare,
   UilMoneyWithdrawal,
@@ -11,8 +10,6 @@ import {
 import img1 from "../imgs/img1.png";
 import img2 from "../imgs/img2.png";
 import img3 from "../imgs/img3.png";
-
-// kwibukaconfiance@gmail.com
 
 // sidebar data
 export const SidebarData = [

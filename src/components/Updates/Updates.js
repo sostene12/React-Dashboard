@@ -2,12 +2,11 @@ import "./Updates.css";
 import { UpdatesData } from "../../Data/Data";
 
 const Updates = () => {
-  console.log(UpdatesData);
   return (
     <div className="Updates">
-      {UpdatesData.map((update) => {
+      {UpdatesData.map((update, index) => {
         return (
-          <div className="update">
+          <div className="update" key={index}>
             <img src={update.img} alt="" />
             <div className="notification">
               <div style={{ marginBottom: "0.5rem" }}>

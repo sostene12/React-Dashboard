@@ -62,3 +62,47 @@
     bottom: 2.3rem;
     width: 100%;
 }
+.bars{
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    .menuItem>span{
+        display: none;
+    }
+    .Logo{
+        display: none;
+    }
+    .bars{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .Sidebar{
+       position: fixed;
+       z-index: 9;
+       width: 55%;
+       padding-right: 1rem;
+       height: 100%;
+       background: #ffe0e0;
+    }
+    .menuItem>span{
+        display: block;
+    }
+    .Logo{
+        display: flex   ;
+    }
+    .menu .menuItem:last-child{
+        position: relative;
+        margin-top: 4rem;
+    }
+    .bars{
+        display: flex;
+        position: fixed;
+        top: 2rem;
+        z-index: 9;
+        background: #ffe0e0;
+        padding: 10px;
+    }
+}
